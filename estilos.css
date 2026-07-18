@@ -1,0 +1,69 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+    background-color: #f7f3ee;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(to right, #222, #5a1a01);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    letter-spacing: 6px;
+    font-family: Georgia, serif;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-top: 25px;
+}
+.imagen-portada {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3749d4;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #8b0000;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
