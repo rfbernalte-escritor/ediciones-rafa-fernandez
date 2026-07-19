@@ -86,3 +86,10 @@ ul {
 ul li::marker {
     color: #ff6600;
 }
+
+h2 {
+    color: #cc5500;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
