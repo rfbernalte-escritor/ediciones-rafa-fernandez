@@ -1,6 +1,16 @@
 
 <p align="left"><img src="Logotipo Editorial.png" width="150" height="200" alt="Logotipo Editorial"></a></p>
+body {
+    background-image: url("Img/15175410046768.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
 header {
     background: linear-gradient(to right, #3b2618, #6b3f1d);
     color: white;
