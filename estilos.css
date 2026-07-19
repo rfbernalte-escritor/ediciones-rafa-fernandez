@@ -11,8 +11,9 @@ body {
 }
 
 header {
+    background: linear-gradient(to right, #3b2618, #6b3f1d);
     color: white;
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
@@ -23,8 +24,23 @@ header h1 {
     margin-bottom: 20px;
 }
 nav {
-    background-color: red !important;
-    padding: 20px !important;
+    background-color: #2b1d14;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d4af37;
 }
 
 nav a {
