@@ -9,7 +9,9 @@ body {
     color: #333;
     margin: 0;
 }
-
+body {
+    background-color: yellow;
+}
 header {
     background: linear-gradient(to right, #3b2618, #6b3f1d);
     color: white;
