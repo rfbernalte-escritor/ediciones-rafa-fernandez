@@ -4,17 +4,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     font-family: Georgia, serif;
     text-align: center;
     color: #333;
     margin: 0;
-    h2 {
+}
+
+h2 {
     color: #cc5500;
     border-left: 6px solid #ff6600;
     padding-left: 12px;
     margin-top: 30px;
-}
 }
 header {
     background: linear-gradient(to right, #3b2618, #6b3f1d);
