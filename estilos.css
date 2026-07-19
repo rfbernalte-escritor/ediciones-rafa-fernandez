@@ -19,26 +19,15 @@ header h1 {
     font-family: Georgia, serif;
     margin-bottom: 20px;
 }
-
 nav {
-    margin-top: 25px;
-}
-.imagen-portada {
-    width: 100%;
-    height: 200px;
-    display: block;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 14px;
-    font-family: Arial, sans-serif;
-    transition: 0.3s;
+    background-color: red !important;
+    padding: 20px !important;
 }
 
-nav a:hover {
-    color: #3749d4;
+nav a {
+    color: yellow !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
 }
 main {
     max-width: 1000px;
