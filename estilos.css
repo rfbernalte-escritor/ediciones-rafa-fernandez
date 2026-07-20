@@ -115,3 +115,12 @@ h2 {
 .servicio {
     ...
 }
+
+.titulo-servicios{
+    font-family: "Times New Roman", serif;
+    font-size: 3em;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
