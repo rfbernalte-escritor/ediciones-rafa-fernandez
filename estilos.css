@@ -143,3 +143,21 @@ h2 {
     padding: 30px;
     border-radius: 15px;
 }
+
+.imagen-con-texto {
+    position: relative;
+    display: inline-block;
+}
+
+.rafbe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    letter-spacing: 5px;
+}
