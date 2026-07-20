@@ -124,3 +124,11 @@ h2 {
     font-style: italic;
     margin-bottom: 20px;
 }
+
+.subtitulo-servicios{
+    text-align: center;
+    color: blue;
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 25px;
+}
