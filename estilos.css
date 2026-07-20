@@ -132,3 +132,16 @@ h2 {
     font-style: italic;
     margin-bottom: 25px;
 }
+
+.servicio{
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.servicio{
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.85);
+    padding: 30px;
+    border-radius: 15px;
+}
