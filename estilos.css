@@ -81,9 +81,6 @@ ul {
     line-height: 1.8;
 }
 
-ul li::marker {
-    color: #ff6600;
-}
 
 h2 {
     color: #cc5500;
@@ -141,12 +138,10 @@ h2 {
 }
 
 .servicio h2{
-    color: #cc5500;
-    border-left: 6px solid #ff6600;
-    padding-left: 12px;
-    margin-top: 30px;
     color: #1f4e79;
+    border-left: none;
     border-bottom: 2px solid #d4a017;
+    padding-left: 0;
     padding-bottom: 8px;
     margin-top: 40px;
     margin-bottom: 20px;
