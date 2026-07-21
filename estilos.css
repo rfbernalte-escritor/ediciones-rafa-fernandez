@@ -156,3 +156,17 @@ h2 {
     text-align: left;
     margin-left: 40px;
 }
+
+.logo-fijo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
