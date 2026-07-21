@@ -10,12 +10,7 @@ body {
     margin: 0;
 }
 
-h2 {
-    color: #cc5500;
-    border-left: 6px solid #ff6600;
-    padding-left: 12px;
-    margin-top: 30px;
-}
+
 header {
     background: linear-gradient(to right, #3b2618, #6b3f1d);
     color: white;
@@ -128,18 +123,7 @@ h2 {
     margin-bottom: 25px;
 }
 
-.servicio{
-    max-width: 900px;
-    margin: 40px auto;
-}
 
-.servicio{
-    max-width: 900px;
-    margin: 40px auto;
-    background: rgba(255,255,255,0.85);
-    padding: 30px;
-    border-radius: 15px;
-}
 
 .imagen-con-texto {
     position: relative;
@@ -160,6 +144,10 @@ h2 {
 }
 
 .servicio h2{
+    color: #cc5500;
+    border-left: 6px solid #ff6600;
+    padding-left: 12px;
+    margin-top: 30px;
     color: #1f4e79;
     border-bottom: 2px solid #d4a017;
     padding-bottom: 8px;
