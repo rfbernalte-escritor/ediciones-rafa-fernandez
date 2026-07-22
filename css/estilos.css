@@ -1,0 +1,171 @@
+body {
+    background-image: url("portada.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+
+header {
+    background: linear-gradient(to right, #3b2618, #6b3f1d);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    letter-spacing: 6px;
+    font-family: Georgia, serif;
+    margin-bottom: 20px;
+}
+nav {
+    background-color: #2b1d14;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+nav a {
+    color: blue;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    font-size: 30px;
+    font-weight: bold;
+    color: 276FF5;
+}
+
+nav a {
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+ul li::marker {
+    color: #ff6600;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+
+h2 {
+    color: #cc5500;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.servicio{
+    max-width: 900px;
+    margin: 40px auto;
+    background: rgba(255,255,255,0.85);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+
+
+.titulo-servicios{
+    font-family: "Times New Roman", serif;
+    font-size: 3em;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.subtitulo-servicios{
+    text-align: center;
+    color: blue;
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+
+
+.imagen-con-texto {
+    position: relative;
+    display: inline-block;
+}
+
+.rafbe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    letter-spacing: 5px;
+}
+
+.servicio h2{
+    color: #1f4e79;
+    border-left: none;
+    border-bottom: 2px solid #d4a017;
+    padding-left: 0;
+    padding-bottom: 8px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.zona-logo {
+    text-align: left;
+    margin-left: 30px;
+}
+.zona-logo {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.logo-fijo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
