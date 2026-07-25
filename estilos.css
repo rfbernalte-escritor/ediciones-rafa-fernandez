@@ -10,10 +10,22 @@ body {
 
 
 header {
+    
+    width: 100%;
+    height: auto;
+    display: block;
+}
+    <img src="banner.png" alt="Ediciones Rafa Fernández">
     background: linear-gradient(to right, #3b2618, #6b3f1d);
     color: white;
     padding: 20px;
     text-align: center;
+    
+    img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 }
 
 header h1 {
