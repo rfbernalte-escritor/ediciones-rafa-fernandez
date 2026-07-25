@@ -5,6 +5,10 @@ body {
     text-align: center;
     color: #333;
     margin: 0;
+    background-image: url("banner.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top center;
 
 }
 
