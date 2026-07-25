@@ -5,10 +5,6 @@ body {
     text-align: center;
     color: #333;
     margin: 0;
-    background-image: url("banner.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: top center;
 
 }
 
@@ -16,9 +12,6 @@ body {
 /* CABECERA */
 
 header {
-    background: linear-gradient(to right, #3b2618, #6b3f1d);
-    text-align: center;
-    padding: 20px;
 
     text-align: center;
     padding: 0;
@@ -38,7 +31,6 @@ header img {
 
 .logo-fijo {
 
-    position: relative;
     margin: 20px auto;
 
 }
@@ -49,7 +41,7 @@ header img {
     font-size: 60px;
     letter-spacing: 6px;
     font-family: Georgia, serif;
-    margin-bottom: 20px;
+    margin: 10px 0;
 
 }
 
@@ -58,6 +50,7 @@ header img {
 
     color: #cc5500;
     font-size: 28px;
+    margin-bottom: 20px;
 
 }
 
@@ -79,10 +72,9 @@ nav a {
     color: white;
     text-decoration: none;
     margin: 0 20px;
-    font-size: 30px;
+    font-size: 22px;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    transition: color 0.3s;
 
 }
 
@@ -205,16 +197,16 @@ h2 {
 
 /* LISTAS */
 
-ul li::marker {
+ul {
 
-    color: #ff6600;
+    line-height: 1.8;
 
 }
 
 
-ul {
+ul li::marker {
 
-    line-height: 1.8;
+    color: #ff6600;
 
 }
 
