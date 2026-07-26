@@ -265,5 +265,8 @@ footer {
 }
 
 a {
+    font-family: Arial, sans-serif;
     font-size: 22px;
+    color: blue;
+    text-decoration: none;
 }
