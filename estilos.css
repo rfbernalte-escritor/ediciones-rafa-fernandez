@@ -5,6 +5,16 @@ body {
     text-align: center;
     color: #333;
     margin: 0;
+    body {
+    font-family: Georgia, serif;
+    text-align: center;
+    color: #333;
+    margin: 0;
+
+    background-image: url("portada.jpeg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 
 }
 
