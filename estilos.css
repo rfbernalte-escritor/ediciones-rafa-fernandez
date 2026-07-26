@@ -257,3 +257,9 @@ footer {
     width: 100px;
     height: 150px;
 }
+
+.frase-contacto {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    color: blue;
+}
