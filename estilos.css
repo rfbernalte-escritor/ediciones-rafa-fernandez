@@ -238,9 +238,18 @@ footer {
     padding: 30px;
     border-radius: 10px;
     margin: 30px auto;
-    max-width: 900px;
+    max-width: 900px;  
+}
+
+.enlace-servicios {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color: red;
+    text-decoration: none;
 }
 
 .sobre-mi p {
     font-size: 20px;
 }
+
