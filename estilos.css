@@ -270,3 +270,31 @@ a {
     color: blue;
     text-decoration: none;
 }
+
+/* Cabecera */
+
+.cabecera{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    margin:20px;
+}
+
+.logo{
+    width:180px;
+    height:auto;
+}
+
+/* Enlace */
+
+.enlace-servicios a{
+    font-size:24px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#d35400;
+}
+
+.enlace-servicios a:hover{
+    color:#ff6600;
+    text-decoration:underline;
+}
