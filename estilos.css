@@ -275,27 +275,15 @@ a {
 
 .cabecera{
     display:flex;
-    align-items:center;
     justify-content:center;
-    gap:50px;
+    align-items:center;
+    gap:20px;          /* antes 50px */
     margin-top:20px;
 }
 
-.logo{
-    width:300px;
-    height:auto;
-}
-
-/* Enlace */
-
 .enlace-servicios a{
-    font-size:24px;
+    font-size:38px;
     font-weight:bold;
-    text-decoration:none;
-    color:#d35400;
-}
-
-.enlace-servicios a:hover{
-    color:#ff6600;
-    text-decoration:underline;
+    font-style:italic;
+    color:#cc5500;
 }
