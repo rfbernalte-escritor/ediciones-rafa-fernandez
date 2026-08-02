@@ -1,20 +1,18 @@
 
-body {
+/* Importar fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@400;700&display=swap');
 
-    font-family: Georgia, serif;
+body {
+    font-family: 'Lato', Arial, sans-serif;
     text-align: center;
     color: #333;
     margin: 0;
-    font-family: Georgia, serif;
-    text-align: center;
-    color: #333;
-    margin: 0;
+    line-height: 1.7;
 
     background-image: url("portada.jpeg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
-
 }
 
 
@@ -308,4 +306,16 @@ a {
 
 h1 {
     margin-top: 5px;
+}
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: #8B4513;
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
