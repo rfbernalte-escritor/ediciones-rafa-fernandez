@@ -339,3 +339,8 @@ nav a:hover {
     background: #8B4513;
     transform: scale(1.05);
 }
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
