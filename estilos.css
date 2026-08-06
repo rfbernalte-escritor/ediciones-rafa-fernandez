@@ -8,14 +8,8 @@
 ========================= */
 
 body {
-    font-family: 'Lato', Arial, sans-serif;
-    text-align: center;
-    color: #333;
-    margin: 0;
-    line-height: 1.7;
-    background-color: #faf7f2;
+    background: lime !important;
 }
-
 
 /* =========================
    CABECERA
