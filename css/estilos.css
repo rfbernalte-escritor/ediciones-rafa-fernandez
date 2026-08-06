@@ -3,13 +3,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     font-family: Georgia, serif;
     text-align: center;
     color: #333;
     margin: 0;
 }
-
-
 header {
     background: linear-gradient(to right, #3b2618, #6b3f1d);
     color: white;
@@ -42,7 +41,7 @@ nav a {
 nav a:hover {
     font-size: 30px;
     font-weight: bold;
-    color: 276FF5;
+    color: #276FF5;
 }
 
 nav a {
