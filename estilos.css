@@ -332,6 +332,18 @@ footer {
     text-decoration: none;
 }
 
+/* Página de contacto */
+
+.menu-contacto {
+    text-align: center;
+    font-size: 22px;
+}
+
+.menu-contacto a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
 .icono-contacto {
     width: 45px;
     height: auto;
